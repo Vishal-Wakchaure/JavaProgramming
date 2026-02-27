@@ -1,5 +1,7 @@
 package day8;
 
+import java.util.Arrays;
+
 public class StringMethods {
 	
 	public static void main(String[] args) {
@@ -67,6 +69,23 @@ public class StringMethods {
 		System.out.println(b[1]);
 		//s="abc,123@xyz";
 		
-		String c = "abc,123@xyz";
-		String arr[] = (c.split(",");
-		System.out.println(d[0],d[1],d[2];
+//		Ex.2 
+		s="abc,123@xyz";
+		
+		String arr1[]=s.split(",");  //abc  123@xyz
+		System.out.println(Arrays.toString(arr1));  //[123,xyz]
+		
+		String arr2[] = arr1[1].split("@");
+		System.out.println(Arrays.toString(arr2));
+		
+		System.out.println(arr1[0]);//abc
+		System.out.println(arr2[0]);//123
+		System.out.println(arr2[1]);//xyz
+		
+//		Ex 
+		String name = "John kneedy";
+//		System.out.println(name.contains("john"));
+//		System.out.println(name.replace('J','j').contains("john"));
+		System.out.println(name.toLowerCase().contains("john"));
+	}
+}
