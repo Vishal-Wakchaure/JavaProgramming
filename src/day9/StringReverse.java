@@ -32,6 +32,16 @@ public class StringReverse {
 			reverse = reverse+a[i];
 		}
 		System.out.println("Reverse string is" +reverse);
+		
+//		Approach 3 - Using String Buffer class 
+		StringBuffer s = new StringBuffer("Welcome");
+		System.out.println("Reverse string is " +s.reverse());
+		
+//		Approach  4 - Using String Builder class
+		StringBuilder s2 = new StringBuilder("Welcome");
+		System.out.println("Reverse string is " + s2.reverse());
+		
+		
 	}
 	
 
