@@ -26,15 +26,36 @@ public class Interfacedemo implements Shape {
 	{
 		System.out.println("This is circle-abstract method	");
 	}
-
+	
+	void triangle()
+	{
+		System.out.println("this is a triangle");
+	}
+	
+	int x=100,y=200;
 	public static void main(String[] args) {
 		
 		//Scenario1
 		Interfacedemo idobj = new Interfacedemo();
 		idobj.Circle();
 		idobj.square();
-		
+		idobj.triangle();		
 		Shape.rectangle();	//static method directly access from interface
+		idobj.triangle();
+		System.out.println(idobj.x + idobj.y);
+		
+		
+//		Scenario 2
+		Shape sh = new Interfacedemo();
+		
+		sh.Circle(); //abstract 
+		sh.square(); //default
+		Shape.rectangle(); //static method can directly access from interface
+//		sh.triangle();//we cannot access
+		System.out.println(Shape.length * Shape.width);//Accessing static variables directly
+		
+//		System.out.println(sh.x + sh.y);//We cannot access variable belong to the class but not interface 
+		
 
 	}
 
