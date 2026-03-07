@@ -29,8 +29,19 @@ public class TypeCastingConcept {
 //		int intvalue = (int)longvalue;
 //		System.out.println(intvalue);
 		
-		double doublevalue = 125.44;
-		float floatvalue = (float)doublevalue;
+//		double doublevalue = 125.44;
+//		float floatvalue = (float)doublevalue;
+//		System.out.println();
 		
+//		Example 1 
+		int i=100;
+	    double d = i;//upcasting
+	    System.out.println(d);
+	    
+//	    Example 2 
+	    
+	    double d =10.5;
+	    int i= (int)d;//downcasting
+	    System.out.println(i);
 	}
 }
