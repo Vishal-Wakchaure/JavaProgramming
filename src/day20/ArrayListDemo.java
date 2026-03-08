@@ -75,12 +75,23 @@ public class ArrayListDemo {
 //		{
 //			System.out.println(it.next());
 //		}
-//		
+
+//		Checking Arraylist Empty or not
+		System.out.println("is arrayList Empty" + mylist.isEmpty());
+		
+//		Remove all elements from ArrayList
+		ArrayList mylist2 = new ArrayList();
+		mylist2.add(100);
+		mylist2.add("welcome");
+		
+		mylist.removeAll(mylist2);
+		System.out.println("After removing multiple elements" +mylist);
+		
+//		remove all the elements/clear
+		mylist.clear();
+		System.out.println("Is ArrayList Empty?" + mylist.isEmpty());
 		
 		
 		
 	}
-	
-	
-
 }

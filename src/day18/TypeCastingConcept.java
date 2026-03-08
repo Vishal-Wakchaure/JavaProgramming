@@ -40,8 +40,8 @@ public class TypeCastingConcept {
 	    
 //	    Example 2 
 	    
-	    double d =10.5;
-	    int i= (int)d;//downcasting
+//	    double d =10.5;
+//	    int i= (int)d;//downcasting
 	    System.out.println(i);
 	}
 }

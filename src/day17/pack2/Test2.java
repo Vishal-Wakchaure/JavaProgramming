@@ -6,8 +6,8 @@ public class Test2 extends Test1{
 	
 	public static void main(String[] args) {
 		Test1 t1 = new Test1();
-		System.out.println(t1.x);
-		t1.m1();
+//		System.out.println(t1.x);
+//		t1.m1();
 	}
 
 }
