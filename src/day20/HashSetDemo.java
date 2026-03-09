@@ -17,7 +17,7 @@ public class HashSetDemo {
 //		HashSet <String>Myset = new HashSet<String>();
 		
 //		Adding elements into hashset
-		Myset.add(100);
+//		Myset.add(100);
 		Myset.add(10.5);
 		Myset.add("Welcome");
 		Myset.add(true);
@@ -51,7 +51,7 @@ public class HashSetDemo {
 			System.out.println(x);
 		}*/
 		
-//		Using Iterator
+//	Using Iterator
 		Iterator<Object> it = Myset.iterator();
 		while(it.hasNext())
 		{
@@ -62,7 +62,5 @@ public class HashSetDemo {
 		System.out.println(Myset);
 		System.out.println(Myset.isEmpty());
 	}
-	
-	
 
 }
