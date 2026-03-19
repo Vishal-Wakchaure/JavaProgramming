@@ -2,11 +2,15 @@ package day1;
 
 public class FirstJavaProgram 
 {
-	
-	public static void main(String args[])
-	{
-		System.out.println("Welcome to Java");
-		System.out.println(10+2);
+		protected void display()
+		{
+			System.out.println("Tv Display");
+		}
+		
+		protected void show()
+		{
+			System.out.println("Show IPL");
+		}
 	}
 
-}
+
