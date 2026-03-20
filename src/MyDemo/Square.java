@@ -1,11 +1,15 @@
 package MyDemo;
 
 public class Square {
-	
-	void show(int x)
+	int a,b;
+	void setvalue(int x,int y)
 	{
-	    int a=x*x;
-		System.out.println("square is"+ a);
+		 this.a=x;
+		 this.b=y;
+	}
+	void calsum()
+	{
+		System.out.println(a+b);
 	}
 
 }

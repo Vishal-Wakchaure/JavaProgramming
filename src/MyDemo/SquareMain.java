@@ -5,7 +5,8 @@ public class SquareMain {
 	public static void main(String[] args) {
 		
 		Square s = new Square();
-		s.show(10);
+		s.setvalue(10,20);
+		s.calsum();
 		
 		
 		
