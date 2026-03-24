@@ -4,9 +4,8 @@ public class HierarchyChildA extends HierarchyParent
 
 
 {
-	
-	
-	
-	
 
+	
+	
+	
 }
