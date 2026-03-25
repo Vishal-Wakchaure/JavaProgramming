@@ -1,11 +1,12 @@
 package day1;
 
-public class AccessSpecifier 
+public class AccessSpecifier {
 
-default void disp()
+ void disp()
 {
 	System.out.println("Saurabh is black");
 	
 	 
 
+}
 }
