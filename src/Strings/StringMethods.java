@@ -49,6 +49,32 @@ public class StringMethods {
 		
 		System.out.println(s==s3);
 		
+//		14. valueof() - convert int into string value
+		int a = 10,b=20;
+		String c = String.valueOf(a);
+		System.out.println(c);
+		String d = String.valueOf(b);
+		System.out.println(d);
+		System.out.println(c+d);
+		
+//		15.toCharArray()
+		
+		char[] e = s.toCharArray();
+		System.out.println(e);
+		
+//		 + Operator 
+		String s4 = "vishal";
+		String s5 = "Java";
+		System.out.println(s4+s5);
+		System.out.println(s4+10);
+		System.out.println(s4+10+20);
+		System.out.println(10+20+s4);
+		System.out.println(10+"vishal"+20);
+		System.out.println(s4+20/10);//BODMAS Rule
+		System.out.println(s4+20*10);
+//		System.out.println(s4+10-5); -error occurs
+		
+		
 	}
 
 }
